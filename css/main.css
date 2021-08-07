@@ -1,0 +1,88 @@
+* general styles */
+body{
+    width: min-content;
+    margin: 40;  
+    font-family: "Roboto";
+    background-color: greenyellow;
+    align-items: center;
+}
+.container{
+    width: 80%;
+    margin-left: auto;
+    margin-right:auto;
+    background-color:white;
+
+}
+.flex{
+    display:flex;
+    /* flex-wrap: wrap; */
+    justify-content: end;
+}
+/* header */
+.header{
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:khaki;
+}
+
+.header nav a{
+    text-decoration: none;
+    color:greenyellow;
+    margin-right: 10px;
+}
+
+/* banner */
+.banner{
+    background-image: url(");
+    background-size: cover;
+    height: 400px;
+    padding:50px 0;
+}
+
+.banner h3{
+    text-align: center;
+}
+.banner div{
+    background-color:white;
+    width: 40%;
+    margin: 20px auto;
+    display: flex;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.banner div input{
+    width: 70%;
+    border: none;
+    
+}
+
+.walk_through .item{
+    text-align: center;
+    margin-right:20px;
+    box-shadow: 1px 48px 5px rgb(96, 96,96); 
+    padding: 10px;
+}
+
+.item button{
+    border: 1px solid blue;
+    background-color: transparent;
+    padding: 10px;
+}
+
+.walk_through .item:last-child{
+    margin-right:0;
+}
+
+.img__holder img{
+}
+
+h4.container{
+    text-align: center;
+    width:30%;
+    margin-left:auto;
+    margin-right: auto;
+}
+    
