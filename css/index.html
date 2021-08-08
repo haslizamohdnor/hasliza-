@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="css/main.css" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section> 
+<div class="container">
+  <div class="header flex head1">
+      <p>Startup Matchmaker</p>
+
+      <!-- Navigation -->
+      <nav>
+        <div>
+        <a href="#find">Find Developers</a>
+        <a href="#find">Find Designers</a>
+        <a href="#">How it works</a>
+        <a href="#">Our Team</a>
+        <a href="#">Blog</a>
+      </nav>
+  </div>
+</section>
+  <hr>
+
+  <div class="header flex head2">
+      <p><b>Because two brains <span style="text-decoration:line-through">tastes</span> <span  style="text-decoration: underline;text-decoration-color: yellow;">are</span> better than one.</b></p>
+  </div>
+      <!-- Slide Show -->
+      <section>
+        <img class="mySlides" src="meeting 1.jpeg"
+        style="width: 100%">
+        <img class="mySlides" src="meeting 2.jpg"
+        style="width:100%">
+        <img class="mySlides" src="meeting 3.jpg"
+        style="width:100%">
+     
+    </section>
+      
+      <script>
+
+        // Automatic Slideshow - change image every 3 seconds
+        var myIndex = 0;
+        carousel();
+        
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}
+          x[myIndex-1].style.display = "block";
+          setTimeout(carousel, 3000);
+        }
+        </script>
+        
+      
+  <div class="flex select" >
+    <div class="item">
+      <h3>Create a Profile</h3>
+      <p>Are you a Designer? Developer? Put yourself out there so that others can find you!</p>
+      <button>SIGN UP NOW</button>
+    </div>
+    <div class="item">
+      <h3><b>Find a Developer</b></h3>
+      <p>Looking for a fantastic developer to work with on the next big thing? Look no further.</p>
+      <button>START YOUR SEARCH</button>
+    </div>
+    <div class="item">
+      <h3><b>Find a Designer</b></h3>
+      <p>Need someone who can make a product intuisive and appealing? Get ready.</p>
+      <button>START YOUR SEARCH</button>
+    </div>
+  </div>
+  <div class="footer flex">
+    @ 2021 Startup Matchmaker. Made in NY.
+  </div>
+</div>
+
+
+    
+</body>
+</html>
